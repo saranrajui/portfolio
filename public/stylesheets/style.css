@@ -437,7 +437,8 @@ h1, h2, h3, h4,
 
 .home .display-table {
     height: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: transparent;
+    /* background-color: rgba(0,0,0,0.7); */
 }
 
 .home h3 {
@@ -758,6 +759,7 @@ h1, h2, h3, h4,
 
 .about .my__img img {
     box-shadow: 20px 20px 1px rgba(0, 0, 0, 0.1);
+    transform: rotate(270deg);
 }
 
 .about .padding-left-25 {
