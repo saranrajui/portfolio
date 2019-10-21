@@ -167,7 +167,7 @@ $(function () {
     
         $.ajax({
             type: "POST",
-            url: $('.contact form').attr('action'),
+            url:  '/email/sendmail', // $('.contact form').attr('action'),
             data: data_string,
             
             success: function (message) {
