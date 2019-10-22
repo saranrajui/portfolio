@@ -759,7 +759,7 @@ h1, h2, h3, h4,
 
 .about .my__img img {
     box-shadow: 20px 20px 1px rgba(0, 0, 0, 0.1);
-    transform: rotate(270deg);
+    /* transform: rotate(270deg); */
 }
 
 .about .padding-left-25 {
