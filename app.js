@@ -17,6 +17,11 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+app.use(express.static('public'));
+
+// image path
+app.set('/images', path.join(__dirname, '/public/images'));
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(bodyparser.urlencoded({extended: true}));
