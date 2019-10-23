@@ -447,7 +447,7 @@ h1, h2, h3, h4,
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     letter-spacing: 4px;
     padding-left: 5px;
 }
@@ -1127,6 +1127,10 @@ footer .social-links a:hover {
 
 footer .social-links a i {
     line-height: 42px;
+}
+h5.custom_space{
+    letter-spacing: 1.5px;
+    line-height: 25px;
 }
 
 /*End Footer*/
