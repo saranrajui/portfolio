@@ -12,7 +12,7 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
-    "nodemailer": "^6.3.1",
+    "nodemailer": "^6.9.9",
     "xoauth2": "^1.2.0"
   },
   "devDependencies": {
